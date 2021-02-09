@@ -6,7 +6,12 @@ export default function App() {
   reutrn (
     <NavigationContainer>
       <Stack.Navigator>
+        <Stack.Screen
+          component={SearchScreen}
+          name="Search"
+        >
 
+        </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   )
