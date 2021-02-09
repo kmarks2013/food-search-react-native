@@ -5,7 +5,7 @@ import SearchBar from '../components/SearchBar'
 const SearchScreen = () => {
     return (
         <View>
-            <Text>Search Bar</Text>
+            <SearchBar />
         </View>
     )
 }
