@@ -9,9 +9,7 @@ export default function App() {
         <Stack.Screen
           component={SearchScreen}
           name="Search"
-        >
-
-        </Stack.Screen>
+        />
       </Stack.Navigator>
     </NavigationContainer>
   )
