@@ -9,7 +9,7 @@ export default function App() {
   return (
     <NavigationContainer
     >
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName='Search'>
         <Stack.Screen
           component={SearchScreen}
           name="Search"
