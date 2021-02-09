@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const SearchBar = () => {
     return (
-        <View>
+        <View style={styles.background} >
             <Text>Search Bar</Text>
         </View>
     )
