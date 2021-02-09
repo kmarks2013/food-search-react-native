@@ -3,5 +3,9 @@ import { createStackNavigator } from '@react-navigation/stack'
 import SearchScreen from './src/SearchScreen'
 
 export default function App() {
+  reutrn (
+    <NavigationContainer>
 
+    </NavigationContainer>
+  )
 }
