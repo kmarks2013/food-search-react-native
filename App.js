@@ -13,6 +13,7 @@ export default function App() {
         <Stack.Screen
           component={SearchScreen}
           name="Search"
+          options={{title:'Business Search'}}
         />
       </Stack.Navigator>
     </NavigationContainer>
