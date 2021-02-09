@@ -4,7 +4,12 @@ import SearchScreen from './src/SearchScreen'
 
 export default function App() {
   reutrn (
-    <NavigationContainer>
+    <NavigationContainer
+      initialRouteName='Search'
+      defaultNavigationOptions={{
+        title: 'Business Search'
+      }}
+    >
       <Stack.Navigator>
         <Stack.Screen
           component={SearchScreen}
