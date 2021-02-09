@@ -8,10 +8,6 @@ const Stack = createStackNavigator()
 export default function App() {
   return (
     <NavigationContainer
-      initialRouteName='Search'
-      defaultNavigationOptions={{
-        title: 'Business Search'
-      }}
     >
       <Stack.Navigator>
         <Stack.Screen
