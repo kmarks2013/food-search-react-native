@@ -11,4 +11,8 @@ const SearchBar = () => {
 
 export default SearchBar
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    background:{
+        backgroundColor: 'grey'
+    }
+})
